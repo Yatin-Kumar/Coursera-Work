@@ -42,6 +42,32 @@ a:hover {
     border: 1px solid black;
 }
 
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    color: black;
+}
+
+li:hover {
+    background-color: red;
+    opacity: 0.7;
+    margin: 0 auto;
+    width: 50%;
+}
+
+hr {
+    margin: 0 auto;
+    padding: 0 auto 0;
+    width: 50%;
+}
+
 
 /*********Main Body**********/
 

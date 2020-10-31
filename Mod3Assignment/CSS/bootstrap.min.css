@@ -239,8 +239,8 @@ th {
 
 @media print {
     *,
-     :after,
-     :before {
+    :after,
+    :before {
         color: #000!important;
         text-shadow: none!important;
         background: 0 0!important;
@@ -5180,7 +5180,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-toggle {
-        display: none;
+        display: none
     }
 }
 
