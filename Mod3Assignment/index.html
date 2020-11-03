@@ -7,6 +7,19 @@
     <title>Assignment solution for Module 3</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/styes.css">
+    <script>
+        function makeMultiplier(multiplier) {
+            var myFunFunc = function(x) {
+                return multiplier + x;
+            };
+
+            return myFunFunc;
+        }
+
+        var operation = makeMultiplier('world');
+        console.log(operation('hello'));
+    </script>
+
 </head>
 
 <body>
@@ -108,7 +121,6 @@
             </section>
         </div>
     </div>
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
